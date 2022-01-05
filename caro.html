@@ -31,10 +31,10 @@
     let positionX = prompt("X: ");
     let positionY = prompt("Y: ");
     data = "";
-    board[positionX][positionY] = "x";
+    board[positionX][positionY] = "x";//liệu như này đã thay thế value chưa???
     for (let i = 0; i < 5; i++) {
         data += "<br/>";
-        for (let j = 0; j < 5; j++) {
+        for (let j = 0; j < 5; j++) {//mục đích của cái này là gì, tại sao phải viết lại???
             data += board[i][j] + "&nbsp;&nbsp;";
         }
     }
